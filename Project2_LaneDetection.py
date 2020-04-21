@@ -272,9 +272,10 @@ while(True):
     font = cv2.FONT_HERSHEY_SIMPLEX
     fontColor = (0, 0, 0)
     fontSize=0.5
-    cv2.putText(img_, 'Lane Curvature: {:.0f} m'.format(lane_curve), (570, 620), font, fontSize, fontColor, 2)
+    cv2.putText(img_, 'Lane Curvature: {:.0f} m'.format(lane_curve), (570, 610), font, fontSize, fontColor, 2)
    
     offset = curve_radius[2]
+    cv2.putText(img_, 'Center Offset: {:.3f} m'.format(offset), (570, 630), font, fontSize, fontColor, 2)
     
     font = cv2.FONT_HERSHEY_SIMPLEX
     fontColor = (0, 0, 0)
