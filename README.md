@@ -5,7 +5,7 @@ The goal of this project is to use traditional Computer Vision techniques to dev
 
 This repository contains the code for lane detection and turn prediction for the self-driving cars. The code has been written in Python, using OpenCV library.
 
-Python Code: Project2_LaneDetection.py
+Python Code: Advanced_Lane_Detection.py
 
 The pipeline highlighted below was designed to operate under the following scenarios:
 
@@ -147,7 +147,7 @@ After this process, we can visualize the detected lanes overlayed on the image a
 
 ### 2.8 Final output.
 
-After the completion of above mentioned image processing techniques, the final overlayed lane detection lokks as shown in below example images:
+After the completion of above mentioned image processing techniques, the final overlayed lane detection looks as shown in below example images:
 
 <img src="images/ld1.png"   width="600"/>   <img src="images/ld2.png"   width="600"/>
 
@@ -156,4 +156,22 @@ After the completion of above mentioned image processing techniques, the final o
 <img src="images/ld6.png"   width="600"/>   <img src="images/ld5.png"   width="600"/>
 
 
+
+## 3 Instructions to run the code.
+
+Clone the repository into a new folder of your choice.
+
+``` cd <your_directory>```
+
+``` git clone https://github.com/nakul3112/Lane-Detection-and-Turn-Prediction-for-Autonomous-cars.git ```
+
+``` python3 Advanced_Lane_Detection.py```
+
+You can also see the output of Lane detection for the input videos here:
+
+[Input videos](https://drive.google.com/drive/u/0/folders/0B8DbLKogb5ktT2F5THBVR0hObHM)
+
+The output videos can be accesses here:
+
+[Output videos](https://drive.google.com/open?id=1SkEkldd6_WlC0E7m0oWRyN-AC7G2ckiM)
 
