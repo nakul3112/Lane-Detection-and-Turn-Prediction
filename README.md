@@ -1,11 +1,14 @@
 # Advanced Lane Detection and Turn Prediction
 
-## 1 Overview
+## 1 Overview and Instructions:
+
+### 1.1 Overview
+
 The goal of this project is to use traditional Computer Vision techniques to develop an advanced and robust algorithm that can detect and track lane boundaries in a given image sequence.
 
 This repository contains the code for lane detection and turn prediction for the self-driving cars. The code has been written in Python, using OpenCV library.
 
-Python Code: Advanced_Lane_Detection.py
+```Python Code```: Advanced_Lane_Detection.py
 
 The pipeline highlighted below was designed to operate under the following scenarios:
 
@@ -21,6 +24,28 @@ Assumptions:
 * NumPy
 * Matplotlib (for charting and visualising images)
 * OpenCV 3.x
+
+
+## 1.3 Instructions to run the code.
+
+Clone the repository into a new folder of your choice.
+
+``` cd <your_directory>```
+
+``` git clone https://github.com/nakul3112/Lane-Detection-and-Turn-Prediction-for-Autonomous-cars.git ```
+
+``` python3 Advanced_Lane_Detection.py```
+
+You can also see the output of Lane detection for the input videos here:
+
+[Input videos](https://drive.google.com/drive/u/0/folders/0B8DbLKogb5ktT2F5THBVR0hObHM)
+
+The output videos can be accesses here:
+
+[Output videos](https://drive.google.com/open?id=1SkEkldd6_WlC0E7m0oWRyN-AC7G2ckiM)
+
+
+
 
 ## 2 Code pipeline
 
@@ -157,21 +182,4 @@ After the completion of above mentioned image processing techniques, the final o
 
 
 
-## 3 Instructions to run the code.
-
-Clone the repository into a new folder of your choice.
-
-``` cd <your_directory>```
-
-``` git clone https://github.com/nakul3112/Lane-Detection-and-Turn-Prediction-for-Autonomous-cars.git ```
-
-``` python3 Advanced_Lane_Detection.py```
-
-You can also see the output of Lane detection for the input videos here:
-
-[Input videos](https://drive.google.com/drive/u/0/folders/0B8DbLKogb5ktT2F5THBVR0hObHM)
-
-The output videos can be accesses here:
-
-[Output videos](https://drive.google.com/open?id=1SkEkldd6_WlC0E7m0oWRyN-AC7G2ckiM)
 
