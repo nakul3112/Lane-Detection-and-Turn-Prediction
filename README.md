@@ -26,9 +26,9 @@ Assumptions:
 
 The camera Calibration matrix and distortion coefficients are already given in the dataset.
 #Camera Matrix
-K = [[  1.15422732e+03   0.00000000e+00   6.71627794e+02]
- [  0.00000000e+00   1.14818221e+03   3.86046312e+02]
- [  0.00000000e+00   0.00000000e+00   1.00000000e+00]]
+```K = [[  1.15422732e+03   0.00000000e+00   6.71627794e+02]```
+ ```[  0.00000000e+00   1.14818221e+03   3.86046312e+02]```
+ ```[  0.00000000e+00   0.00000000e+00   1.00000000e+00]]```
 
 #Distortion Coefficients
 dist = [[ -2.42565104e-01  -4.77893070e-02  -1.31388084e-03  -8.79107779e-05
@@ -57,7 +57,7 @@ After distortion correction, an undistorted image is operated with Perspective T
 
 Below is an example of warped image:
 
-<img src="images/warp.png" width="600"/> 
+<img src="images/warp1.png" width="600"/> 
 
 
 ### 2.2 Distortion correction
@@ -110,20 +110,19 @@ The first technique employed to do so is: **Peaks in Histogram & Sliding Windows
 
 Below is an example of this process visualized for an image: 
 
-<img src="images/swt.png" width="400"/>
+<img src="images/swt.png" width="800"/>
 
 
 ### 2.6 Conversion from pixel space to real world space
 
 To report the lane line curvature in meters, we first need to convert from pixel coordinates to real world coordinates. For this, we measure the width of a section of lane that we're projecting in our warped image and the length of a dashed line. 
 
-<img src="images/pipe6_1.png" height=500 />
-
 The values for metres/pixel along the x and y direction are therefore:
 
 ```
 Average meter per pixel along x-axis: 3.7/720
 Average meter per pixel along y-axis: 30.5/720
+```
 
 ### 2.7 Curvature and Offset
 
