@@ -57,7 +57,7 @@ After distortion correction, an undistorted image is operated with Perspective T
 
 Below is an example of warped image:
 
-<img src="images/warp1.png" width="600"/> 
+<img src="images/warp1.png" width="500"/> 
 
 
 ### 2.2 Distortion correction
@@ -69,7 +69,7 @@ To undistort an image, we need to use calibration matrix and distortion coeffici
 
 Below is an example of undistorted image:
 
- <img src="images/undist1.png" width="600"/>
+ <img src="images/undist1.png" width="500"/>
 
   
 ### 2.3 Denoising the image
@@ -140,9 +140,20 @@ So, our equation for radius of curvature becomes:
 
 After this process, we can visualize the detected lanes overlayed on the image as shown:
 
-<img src="images/lane_det.png"  width="400"/>
+<img src="images/lane_det.png"  width="800"/>
 
-<img src="images/overlay.png"   width="400"/>
+<img src="images/overlay.png"   width="600"/>
+
+
+### 2.8 Final output.
+
+After the completion of above mentioned image processing techniques, the final overlayed lane detection lokks as shown in below example images:
+
+<img src="images/ld1.png"   width="600"/>   <img src="images/ld2.png"   width="600"/>
+
+<img src="images/ld3.png"   width="600"/>   <img src="images/ld4.png"   width="600"/>
+
+<img src="images/ld6.png"   width="600"/>   <img src="images/ld5.png"   width="600"/>
 
 
 
