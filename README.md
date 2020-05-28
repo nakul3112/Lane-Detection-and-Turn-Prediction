@@ -40,7 +40,7 @@ You can also see the output of Lane detection for the input videos here:
 
 [Input videos](https://drive.google.com/drive/u/0/folders/0B8DbLKogb5ktT2F5THBVR0hObHM)
 
-The output videos can be accesses here:
+The output videos can be accessed here:
 
 [Output videos](https://drive.google.com/open?id=1SkEkldd6_WlC0E7m0oWRyN-AC7G2ckiM)
 
@@ -51,14 +51,13 @@ The output videos can be accesses here:
 
 The camera Calibration matrix and distortion coefficients are already given in the dataset.
 #Camera Matrix
+
 ```K = [[  1.15422732e+03   0.00000000e+00   6.71627794e+02]```
  ```[  0.00000000e+00   1.14818221e+03   3.86046312e+02]```
  ```[  0.00000000e+00   0.00000000e+00   1.00000000e+00]]```
 
 #Distortion Coefficients
-dist = [[ -2.42565104e-01  -4.77893070e-02  -1.31388084e-03  -8.79107779e-05
-    2.20573263e-02]]
-
+```dist = [[ -2.42565104e-01  -4.77893070e-02  -1.31388084e-03  -8.79107779e-05 2.20573263e-02]]```
 
 Following steps are involved in the pipeline, each of which have also been discussed in more detail in the sub-sections below:
 
